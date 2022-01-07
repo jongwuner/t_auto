@@ -198,7 +198,7 @@ def post_tistory():
      data = {
            'access_token': TISTORY_ACCESS_TOKEN,
            'output': '{output-type}',
-           'blogName': 'grandit',
+           'blogName': 'nomadmoney',
            'title': title,
            'content': content,
            'visibility': '3',
