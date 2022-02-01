@@ -1,7 +1,7 @@
 name: Run tistory auto posting bot
 on:
   schedule:
-         - cron: "0 22 * * *"      
+         - cron: "0 22 14,28 * *"      
   push:
     branches: [ main ]
 jobs:
